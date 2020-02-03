@@ -66,4 +66,18 @@ class Week2Tester {
 		assertEquals("He there",sol.withoutString("Hello there", "llo"));
 	}
 
+	@Test 
+	oinfoifnofin{
+		bool[][] dummy = .dummy..dummy.
+		GameOfLike gol = new GameOfLife({});
+		for(int i=0;i<7) {
+			gol.simulate();
+		boolean[][] solution = {}
+		for(i 1->width)
+			for j 0->height
+			 assert(solution. getter())
+	}
+		
+	}
+	
 }
