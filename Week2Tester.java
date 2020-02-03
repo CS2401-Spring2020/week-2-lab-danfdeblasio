@@ -1,7 +1,15 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
-
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
 import org.junit.jupiter.api.Test;
+
+@RunWith(Suite.class)
+
+@Suite.SuiteClasses({
+   Week2Tester.class
+})
+
 
 /* Hey look I added something*/ 
 class Week2Tester {
@@ -17,6 +25,9 @@ class Week2Tester {
 		Week2 sol = new Week2();
 		int[] A = {1,2,3};
 		assertEquals(3, sol.maxTriple(A)); 
+		
+		int[] B = {7,11,1};
+		assertEquals(11, sol.maxTriple(B));
 	}
 
 	/*
@@ -46,7 +57,7 @@ class Week2Tester {
 	/*
 	 * withoutString:
      * Test case 1:
-     * withoutString("Hello there", "llo") → "He there"
+     * withoutString("Hello t here", "llo") → "He there"
 	 */
 
 	@Test 
